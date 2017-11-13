@@ -1,0 +1,127 @@
+body{
+	background-image:url(img/stonehaven.png);
+	
+}
+
+
+
+/* Layout */
+
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+
+
+
+.your_class{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+	height:300px;
+	
+	
+}
+
+.your_class .Image{
+	margin:10px;
+}
+
+.arrow{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	position:relative;
+	
+}
+
+.slick-prev{
+	position:absolute;
+	
+	bottom:100px;
+	left:30px;
+}
+.slick-prev:hover{
+	width:110%;
+}
+.slick-next{
+	
+	bottom:100px;
+	position:absolute;
+	left:1400px;
+}
+
+.text{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	text-align:center;
+	width:60%;
+	margin:0 auto;
+	
+}
+
+.text h1{
+	font-family: 'Poppins', sans-serif;
+	color:  #000000;
+	font-size: 86px;
+	font-weight: 400;
+	line-height: 90px;
+	text-align: center;
+}
+.text p {
+	font-family: 'Poppins', sans-serif;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 19.17px;
+}
